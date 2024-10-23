@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color:#065044 ;
+}
+/* .form{
+  background-color: white;
+  height: 620px;
+  width: 500px;
+  margin-left: -400px;
+  margin-top: 80px;
+
+} */
+ .form{
+  background-color: white;
+  height: 690px;
+  width: 550px;
+  margin-left: 500px;
+  margin-top: 40px;
+  border-radius: 15px;
+  border: solid white;
+
+ }
+
+ .d-flex{
+  display: flex;
+ }
+ .box-with-shadow-border{
+  border: 2px solid black;
+  outline: 5px solid transparent;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+ }
+
+ @media(max-width:760px){
+  .form{
+    margin-left: -10px;
+    margin-top: -30px;
+  }
+ }
